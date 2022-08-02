@@ -1,5 +1,4 @@
-import hackerRank.algorithms.plusMinus
-import hackerRank.algorithms.staircase
+import hackerRank.algorithms.miniMaxSum
 
 fun main() {
     /* region diagonalDifference */
@@ -7,11 +6,15 @@ fun main() {
     /* endregion */
 
     /* region plusMinus */
-    println(plusMinus(arrayOf(-4, 3, -9, 0, 4, 1)))
+//    println(plusMinus(arrayOf(-4, 3, -9, 0, 4, 1)))
     /* endregion */
 
     /* region staircase */
-    println(staircase(4))
+//    println(staircase(4))
+    /* endregion */
+
+    /* region miniMaxSum */
+    println(miniMaxSum(arrayOf(1, 2, 3, 4, 5)))
     /* endregion */
 
     /* region diagonalDifference */
