@@ -1,4 +1,4 @@
-import hackerRank.algorithms.birthdayCakeCandles
+import hackerRank.algorithms.timeConversion
 
 fun main() {
     /* region diagonalDifference */
@@ -17,8 +17,17 @@ fun main() {
 //    println(miniMaxSum(arrayOf(1, 2, 3, 4, 5)))
     /* endregion */
 
-    /* region diagonalDifference */
-    println(birthdayCakeCandles(arrayOf(3, 2, 1, 3)))
+    /* region birthdayCakeCandles */
+//    println(birthdayCakeCandles(arrayOf(3, 2, 1, 3)))
+    /* endregion */
+
+    /* region timeConversion */
+    println(timeConversion("07:05:45PM"))
+    println(timeConversion("12:00:01PM"))
+    println(timeConversion("01:00:01PM"))
+    println(timeConversion("12:00:01AM"))
+    println(timeConversion("05:00:01AM"))
+    println(timeConversion("05:00:01AM"))
     /* endregion */
 
     /* region diagonalDifference */
