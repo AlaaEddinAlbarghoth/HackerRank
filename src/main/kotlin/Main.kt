@@ -1,4 +1,4 @@
-import hackerRank.algorithms.miniMaxSum
+import hackerRank.algorithms.birthdayCakeCandles
 
 fun main() {
     /* region diagonalDifference */
@@ -14,7 +14,11 @@ fun main() {
     /* endregion */
 
     /* region miniMaxSum */
-    println(miniMaxSum(arrayOf(1, 2, 3, 4, 5)))
+//    println(miniMaxSum(arrayOf(1, 2, 3, 4, 5)))
+    /* endregion */
+
+    /* region diagonalDifference */
+    println(birthdayCakeCandles(arrayOf(3, 2, 1, 3)))
     /* endregion */
 
     /* region diagonalDifference */
