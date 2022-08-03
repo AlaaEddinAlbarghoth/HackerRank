@@ -1,4 +1,5 @@
-import hackerRank.algorithms.timeConversion
+import hackerRank.algorithms.gradingStudents
+import hackerRank.utils.printArray
 
 fun main() {
     /* region diagonalDifference */
@@ -22,12 +23,16 @@ fun main() {
     /* endregion */
 
     /* region timeConversion */
-    println(timeConversion("07:05:45PM"))
-    println(timeConversion("12:00:01PM"))
-    println(timeConversion("01:00:01PM"))
-    println(timeConversion("12:00:01AM"))
-    println(timeConversion("05:00:01AM"))
-    println(timeConversion("05:00:01AM"))
+//    println(timeConversion("07:05:45PM"))
+//    println(timeConversion("12:00:01PM"))
+//    println(timeConversion("01:00:01PM"))
+//    println(timeConversion("12:00:01AM"))
+//    println(timeConversion("05:00:01AM"))
+//    println(timeConversion("05:00:01AM"))
+    /* endregion */
+
+    /* region grading students */
+    printArray(gradingStudents(arrayOf(73, 67, 38, 33)))
     /* endregion */
 
     /* region diagonalDifference */
