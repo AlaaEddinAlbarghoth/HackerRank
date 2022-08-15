@@ -1,3 +1,4 @@
+import hackerRank.algorithms.breakingRecords
 import hackerRank.algorithms.gradingStudents
 import hackerRank.utils.printArray
 
@@ -37,4 +38,6 @@ fun main() {
 
     /* region diagonalDifference */
     /* endregion */
+
+    breakingRecords(arrayOf(10, 5, 20, 20, 4, 5, 2, 25, 1))
 }
