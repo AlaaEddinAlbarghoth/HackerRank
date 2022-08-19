@@ -1,5 +1,4 @@
-import hackerRank.algorithms.breakingRecords
-import hackerRank.algorithms.gradingStudents
+import hackerRank.algorithms.birthday
 import hackerRank.utils.printArray
 
 fun main() {
@@ -33,11 +32,14 @@ fun main() {
     /* endregion */
 
     /* region grading students */
-    printArray(gradingStudents(arrayOf(73, 67, 38, 33)))
+    //  printArray(gradingStudents(arrayOf(73, 67, 38, 33)))
     /* endregion */
 
     /* region diagonalDifference */
     /* endregion */
 
-    breakingRecords(arrayOf(10, 5, 20, 20, 4, 5, 2, 25, 1))
+    // breakingRecords(arrayOf(10, 5, 20, 20, 4, 5, 2, 25, 1))
+
+    printArray(arrayOf(1, 2, 1, 3, 2))
+    birthday(arrayOf(1, 2, 1, 3, 2), 3, 2)
 }
