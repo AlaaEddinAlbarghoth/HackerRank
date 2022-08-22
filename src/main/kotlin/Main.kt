@@ -1,5 +1,4 @@
-import hackerRank.algorithms.birthday
-import hackerRank.utils.printArray
+import hackerRank.algorithms.migratoryBirds
 
 fun main() {
     /* region diagonalDifference */
@@ -40,6 +39,9 @@ fun main() {
 
     // breakingRecords(arrayOf(10, 5, 20, 20, 4, 5, 2, 25, 1))
 
-    printArray(arrayOf(1, 2, 1, 3, 2))
-    birthday(arrayOf(1, 2, 1, 3, 2), 3, 2)
+//    printArray(arrayOf(1, 2, 1, 3, 2))
+//    birthday(arrayOf(1, 2, 1, 3, 2), 3, 2)
+
+    println(migratoryBirds(arrayOf(1, 4, 4, 4, 5, 3)))
+    println(migratoryBirds(arrayOf(1, 2, 3, 4, 5, 4, 3, 2, 1, 3, 4)))
 }
