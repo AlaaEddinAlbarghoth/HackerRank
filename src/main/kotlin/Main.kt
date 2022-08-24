@@ -1,4 +1,4 @@
-import hackerRank.algorithms.migratoryBirds
+import hackerRank.algorithms.bonAppetit
 
 fun main() {
     /* region diagonalDifference */
@@ -42,6 +42,8 @@ fun main() {
 //    printArray(arrayOf(1, 2, 1, 3, 2))
 //    birthday(arrayOf(1, 2, 1, 3, 2), 3, 2)
 
-    println(migratoryBirds(arrayOf(1, 4, 4, 4, 5, 3)))
-    println(migratoryBirds(arrayOf(1, 2, 3, 4, 5, 4, 3, 2, 1, 3, 4)))
+//    println(migratoryBirds(arrayOf(1, 4, 4, 4, 5, 3)))
+//    println(migratoryBirds(arrayOf(1, 2, 3, 4, 5, 4, 3, 2, 1, 3, 4)))
+
+    bonAppetit(arrayOf(3 ,10 ,2 ,9), 1, 12)
 }
